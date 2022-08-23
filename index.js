@@ -33,6 +33,7 @@ end_date.addEventListener("change", (e) => {
   }
 });
 
+// Booking calc
 const bookingCalc = () => {
   let diffTime = Math.abs(
     new Date(end_date.value) - new Date(start_date.value)
