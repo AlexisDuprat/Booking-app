@@ -14,6 +14,7 @@ let tomorrowFormat = tomorrow.toISOString().split("T")[0];
 end_date.value = tomorrowFormat;
 end_date.min = tomorrowFormat;
 
+/* Change date */
 start_date.addEventListener("change", (e) => {
   let day = new Date(e.target.value);
 
